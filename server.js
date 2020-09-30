@@ -15,19 +15,20 @@ const noteData = [];
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get("/notes", function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/notes.html"));
-  });
+app.get("/notes", function (req, res) {
+  res.sendFile(path.join(__dirname, "./public/notes.html"));
+});
 
-app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/index.html"));
-  });
-  app.get("/api/notes", function(req, res) {
-    return res.json(noteData);
-  });
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./public/index.html"));
+});
+
+app.get("/api/notes", function (req, res) {
+  res.sendFile(path.join(__dirname, "./db/db.json"));
+});
 
 // Starts the server to begin listening
 // =============================================================
-app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
+app.listen(PORT, function () {
+  console.log("App listening on PORT " + PORT);
+});
