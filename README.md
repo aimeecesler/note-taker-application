@@ -62,15 +62,15 @@ As always, a huge thanks to our instructional staff for all their hard work!
 
 - [w3schools](https://www.w3schools.com)
 - [Node.js](https://nodejs.org/en/)
-- [Express.js]()
+- [Express](https://expressjs.com/)
 
 ---
 
 ## Links
 
-[Repository Link]()
+[Repository Link](https://github.com/aimeecesler/note-taker-application)
 
-[Deployed Application]()
+[Deployed Application](https://note-taker-aimee-esler.herokuapp.com/notes)
 
 ---
 
