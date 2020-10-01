@@ -36,6 +36,9 @@ This repository contains the code for a note application where the user can add 
 Edit using VSCode after [installation](#installation). JavaScript, HTML, CSS and package.json files are included.
 
 ![JS](./images/server.PNG)
+
+---
+
 ![package.json](./images/package.PNG)
 
 ---
