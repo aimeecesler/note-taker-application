@@ -44,9 +44,13 @@ ENTER CONTENT
 
 ---
 
-## Minimum Requirements
+## Acceptance Criteria
 
-:heavy_check_mark:
+Application should allow users to create and save notes. :heavy_check_mark:
+
+Application should allow users to view previously saved notes. :heavy_check_mark:
+
+Application should allow users to delete previously saved notes. :heavy_check_mark:
 
 ---
 
