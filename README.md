@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-ENTER CONTENT
+This repository contains the code for a note application where the user can add and save notes, please see the [links](#Links) section to visit the deployed application.
 
 ![Start](./images/start.PNG)
 ![Note](./images/note.PNG)
@@ -24,7 +24,7 @@ ENTER CONTENT
 
 ## Installation
 
-1. Follow the GitHub Repository Link in the [Links](#Links) section below.
+1. Follow the GitHub Repository Link in the [links](#Links) section below.
 1. Clone the repository using an SSH key.
 1. Open GitBash and use "git clone" to clone the repository.
 1. Run npm install to install associated modules.
