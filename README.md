@@ -4,7 +4,8 @@
 
 ENTER CONTENT
 
-![Sample]()
+![Start](./images/start.PNG)
+![Note](./images/note.PNG)
 
 ---
 
@@ -34,7 +35,8 @@ ENTER CONTENT
 
 Edit using VSCode after [installation](#installation). JavaScript, HTML, CSS and package.json files are included.
 
-![JS]()
+![JS](./images/server.PNG)
+![package.json](./images/package.PNG)
 
 ---
 
