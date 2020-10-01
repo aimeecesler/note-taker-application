@@ -33,11 +33,8 @@ app.get("/api/notes", function (req, res) {
 app.post("/api/notes", function (req, res) {
   const newNote = req.body;
   noteData = fs.readFileSync("./db/db.json", "utf8");
-  // console.log(noteData);
   noteData = JSON.parse(noteData);
   newNote.id = noteData.length;
-  // console.log(newNote.id);
-  // console.log(newNote);
   noteData.push(newNote);
   noteData = JSON.stringify(noteData);
   fs.writeFile("./db/db.json", noteData, "utf8", (err) => {
@@ -49,10 +46,8 @@ app.post("/api/notes", function (req, res) {
 // removes the note with the corresponding id to the one clicked from the db.json file
 // returns the altered contents of the file
 app.delete("/api/notes/:id", function (req, res) {
-  // console.log(req.params.id);
   const deletedNoteId = req.params.id;
   noteData = fs.readFileSync("./db/db.json", "utf8");
-  // console.log(noteData);
   noteData = JSON.parse(noteData);
   noteData = noteData.filter(function (note) {
     return note.id != deletedNoteId;
