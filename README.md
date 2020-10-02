@@ -77,7 +77,7 @@ As always, a huge thanks to our instructional staff for all their hard work!
 
 [Repository Link](https://github.com/aimeecesler/note-taker-application)
 
-[Deployed Application](https://note-taker-aimee-esler.herokuapp.com/notes)
+[Deployed Application](https://note-taker-aimee-esler.herokuapp.com/)
 
 ---
 
