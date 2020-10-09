@@ -43,7 +43,7 @@ Edit using VSCode after [installation](#installation). JavaScript, HTML, CSS and
 
 ---
 
-## Building the Team Profile Generator
+## Building the Note Taker
 
 Upon visiting the application, the user is presented with a home screen displaying a button to get started. Once the user clicks the 'Get Started' button, they are taken to a note page where they can either view old notes or enter a new note. If the user choses to view an old note, they simply have to click on the note that they wish to view and the note title and contents will display on the screen. If the user wishes to delete a note, they can click the trash icon and the note will be deleted. If the user wishes to write a new note, they can click the pencil icon on the top right of the window and enter details for their note. When the user begins typing, a save icon will also appear on the top right of the window. Once the user is done writing their note, they can simply click the save icon and their note will be saved.
 
