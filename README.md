@@ -17,6 +17,7 @@ This repository contains the code for a note application where the user can add 
 - [Acceptance Criteria](#acceptance-criteria)
 - [Credits](#credits)
 - [Resources](#resources)
+- [Contact](#contact)
 - [Links](#Links)
 - [License](#license)
 
@@ -70,6 +71,12 @@ As always, a huge thanks to our instructional staff for all their hard work!
 - [w3schools](https://www.w3schools.com)
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
+
+---
+
+## Contact
+Find me on LinkedIn!
+[Aimee Esler](https://www.linkedin.com/in/aimee-esler-3bb31288/)
 
 ---
 
